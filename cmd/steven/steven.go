@@ -18,7 +18,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/thinkofdeath/steven"
+	"github.com/jakibaki/steven"
 )
 
 func main() {
