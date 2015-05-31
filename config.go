@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/thinkofdeath/steven/protocol/mojang"
+	"github.com/jakibaki/steven/protocol/mojang"
 )
 
 var Config ConfigData
