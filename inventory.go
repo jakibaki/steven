@@ -76,7 +76,7 @@ func (playerInventory) Draw(s *scene.Type, inv *Inventory) {
 	Client.hotbarScene.Hide()
 	Client.hotbarScene = scene.New(true)
 	hs := Client.hotbarScene
-	for i := invPlayerHotbarOffset; i < invPlayerHotbarOffset+9; i++ {
+	for i := invPlayerHotbarOffset; i < invPlayerHotbarOffset+15; i++ {
 		if inv.Items[i] == nil {
 			continue
 		}
