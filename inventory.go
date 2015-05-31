@@ -69,14 +69,14 @@ func (inv *Inventory) Show() {
 type playerInventory struct {
 }
 
-const invPlayerHotbarOffset = 1
+const invPlayerHotbarOffset = 36
 
 func (playerInventory) Draw(s *scene.Type, inv *Inventory) {
 	// Slots 36-44 are the hotbar
 	Client.hotbarScene.Hide()
 	Client.hotbarScene = scene.New(true)
 	hs := Client.hotbarScene
-	for i := invPlayerHotbarOffset; i < invPlayerHotbarOffset+36; i++ {
+	for i := invPlayerHotbarOffset; i < invPlayerHotbarOffset+9; i++ {
 		if inv.Items[i] == nil {
 			continue
 		}
