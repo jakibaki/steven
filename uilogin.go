@@ -56,7 +56,7 @@ func newLoginScreen() *loginScreen {
 	ls.user = newTextBox(0, -20, 400, 40)
 	ls.user.back.Attach(ui.Middle, ui.Center)
 	ls.user.add(ls.scene)
-	label := ui.NewText("Username/Email:", 0, -18, 255, 255, 255).Attach(ui.Top, ui.Left)
+	label := ui.NewText("Useddddddrname/Email:", 0, -18, 255, 255, 255).Attach(ui.Top, ui.Left)
 	label.AttachTo(ls.user.back)
 	ls.scene.AddDrawable(label)
 	ls.user.back.ClickFunc = func() {
