@@ -82,7 +82,7 @@ func newLoginScreen() *loginScreen {
 	}
 	ls.pass.Password = true
 
-	ls.loginBtn, ls.loginTxt = newButtonText("Login", 0, 100, 400, 40)
+	ls.loginBtn, ls.loginTxt = newButtonText("Hallo", 0, 100, 400, 40)
 	ls.loginBtn.Attach(ui.Middle, ui.Center)
 	ls.scene.AddDrawable(ls.loginBtn)
 	ls.scene.AddDrawable(ls.loginTxt)
